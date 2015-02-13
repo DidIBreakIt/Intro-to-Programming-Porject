@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="NotesStyle.css">
+    Webpages, Documents, and Structure
+  </head>
+  <body>
+    <div class="Course">
+      <div class="CourseName">
+        <h1>Webpages, Documents, and Structures</h1>
+      </div>
+      <div class="Lesson">
+        <div class="LessonName">
+          <h2>Lesson1: The Basics of the Web and HTML<h2>
+        </div>
+        <div class="Concept">
+          <div class="Topic">
+            The Web
+          </div>
+          <div class="item">
+            - A collection of HTML documents, links between the HTML documents create its web-like nature.<br>
+            - It contains a wide array of files, including plain text, images, audio, and video.<br>
+            -  HTTP is the main protocol of the web
+          </div>
+        </div>
+        <div class="Concept">
+          <div class="Topic">
+            HTML (HyperText Markup Language)
+          </div>
+          <div class="item">
+            - It is made up of text content, markup (what it looks like), references to other documents (i.e. videos, images), and links to other pages.
+          </div>
+        </div>
+        <div class="Concept">
+          <div class="Topic">
+            HTML markup
+          </div>
+          <div class="item">
+            - Made up of tags, in the format of &ltname&gtcontents&lt/name&gt.<br>
+            - The opening tag, contents, and closing tag, as a whole, are refered to as an element.<br>
+            - The b tag makes the contents appear bold.<br>
+            - The em tag makes the contents appear in italics.<br>
+            - Forgetting to write in the closing tag can lead to disasterous results because the computer does not know inherently where the closing tag should be.<br>
+            - Not all tags require a closing tag, such as &ltbr&gt and &ltimg&gt. In those instances, the closing tag is referred to as a void tag.
+          </div>
+        </div>
+        <div class="Concept">
+          <div class="Topic">
+            HTML attributes
+          </div>
+          <div class="item">
+            - Written in the format &lttag attribute = "value"&gtcontents&lt/tag&gt.<br>
+            - Tags can have multiple attributes.<br>
+            - An exampe of a tag that uses an attribuite is the anchor tag, &lta href = "url"&gtcontent&lt/a&gt. Anchors are for making links.<br>
+            - Another example is the image tag, which is written out as &ltimg src = "url" alt = "text"&gt (there is no closing tag). The src is the address of where the image is located, and the alt is the text that gets displayed when the image does not load.
+          </div>
+        </div>
+        <div class="Concept">
+          <div class="Topic">
+            White Space
+          </div>
+          <div class="item">
+            - If you enter text on multiple lines, it is still rendered in HTML as one line.<br>
+            - The break tag, &ltbr&gt, creates a line break.  It is a void tag.<br>
+            - The paragraph tag, &ltp&gtcontent&lt/p&gt, also creates a break by making a block around its contents.
+          </div>
+        </div>
+        <div class="Concept">
+          <div class="Topic">
+            Inline vs. Block
+          </div>
+          <div class="item">
+            - Inline tag affects the contents in the line of HTML.<br>
+            - Examples of inline elements include &ltb&gt, &ltem&gt, &ltimg&gt, and &ltbr&gt.<br>
+            - Block tag creates an invisible box around its contents.  The box can have height and width.<br>
+            - Examples of block elements include &ltp&gt.
+          </div>
+        </div>
+        <div class="Concept">
+          <div class="Topic">
+            HTML Documents
+          </div>
+          <div class="item">
+            - The Doctype describes the which kind of HTML this is.<br>
+            - The opening and closing HTML tag surround the rest of the document.<br>
+            - The head includes metadata, CSS and Java, and the title of the page, which appears on the top of the browser window.<br>
+            - The body is the actual contents of the document.
+          </div>
+        </div>
+      </div>
+      <div class="Lesson">
+        <div class="LessonName">
+          <h2>Lesson 2: Creating a Structured Document with HTML</h2>
+        </div>
+        <div class="item">
+          <p>- HTML helps design the structure of the page.  CSS determines the style of the page.  Java lets users interact with the page.</p>
+          <p>- Every HTML page has a branching, tree-like structure, otherwise known as the DOM(<em>Document Object Model</em>).</p>
+          <p>- HTML classifies page content.</p>
+          <p>- CSS changes how elements look on the page.</p>
+          <p>- Every element on an HTML page is a rectangle.  CSS allows other shapes to be displayed on the page.</p>
+          <p>- The page is actually like a grid, and boxes can placed and rearranged on the grid.</p>
+        </div>
+      </div>
+      <div class="Lesson">
+        <div class="LessonName">
+          <h2> Lesson 3: Adding CSS Style to HTML Structure</h2>
+        </div>
+        <div class="Concept">
+          <div class="Topic">
+            CSS
+          </div>
+          <div class="item">
+            - Stands for Cascading Style Sheets<br>
+            - Cascading means that the style from the most specific is applied.
+          </div>
+        </div>
+        <div class="Concept">
+          <div class="Topic">
+            Inheritance
+          </div>
+          <div class="item">
+            - Any elements enclosed in another element take on the property values of the enclosing element.
+          </div>
+        </div>
+        <div class="Concept">  
+          <div class="Topic">
+            CSS Syntax
+          </div>
+          <div class="item">
+            -To select the element class you want to apply style, type either the tag name or the .class before a pair of curly brackets, {}.<br>
+            - To select with attribute you want to change, type attribute:value inside the curly brackets. The attributes are separated by a semi-colon.<br>
+            - Examples: p{font-size:medium}, .descrpition{color:white; background-color:red}
+            - All modifiable attributes and possible values can be found in the <a href="developer.mozilla.org/en-US/docs/Web/CSS/Reference">CSS Reference</a>
+          </div>
+        </div>
+        <div class="Concept">
+          <div class="Topic">
+            HTML Elements
+          </div>
+          <div class="item">
+            - They are boxes, and each box has four components: contents, padding, border, and margin.<br>
+            - Divs are block elements, so they take up the entire width of the page.<br>
+            -The CSS rule {display:flex} allows block elements to be displayed side by side.
+          </div>
+        </div>
+        <div class="Concept">
+          <div class="Topic">
+            Code, Test, Refine
+          </div>
+          <div class="item">
+            1. Look for natural boxes.<br>
+            2. Look for repeated styles and semantic elements.<br>
+            3. Write your HTML.<br>
+            4. Apply styles (from biggest to smallest).<br>
+            5. Fix things.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="Course">
+      <div class="CourseName">
+        <h1>Telling Computers What To Do</h1>
+      </div> 
+      <div class="Lesson">
+        <div class="LessonName">
+          <h2>Lesson 1: Intro to "Serious" Programming</h2>
+        </div>
+        <div class="Concept">
+          <div class="Topic">
+            Computer Science
+          </div>
+          <div class="item">
+            - A computer is a universal machine that can be programmed to do any computation.<br>
+            - Computer sciense is about how to solve problems by breaking them into smaller piece, and then precisely and mechanically describing a sequence of steps that you can use to solve each piece.<br>
+            -These steps can be excuted by a computer.
+          </div>
+        </div>
+        <div class="Concept">
+          <div class="Topic">
+            Programming Language
+          </div>
+          <div class="item">
+            - A programming language eliminates ambiguity and verbosity.<br>
+            - It has a grammar.<br>
+          </div>
+        </div>  
+      </div>
+      <div class="Lesson">
+        <div class="LessonName">
+          <h2>Lesson 2: Variables and Strings</h2>
+        </div>
+        <div class="Concept">
+          <div class="Topic">
+            Variables
+          </div>
+          <div class="item">
+            - A variable is a name that refers to an expression.<br>
+            -It is defined by an assignment statement, <em> name = expression</em>.<br>
+            - Variables can have their value changed.
+            - They can be used in their own assignment statement, i.e. days = days - 1.<br>
+            - In programming, the equals symbol means assignment not equivalency.<br>
+            - Convention says that variables should start with a lower case letter.
+          </div>
+        </div>
+        <div class="Concept">
+          <div class="Topic">
+            Strings
+          </div>
+          <div class="item">
+            - A string is a sequence of characters surrounded by quotes.<br>
+            - It can be either single or double quotes, but it must start and end with the same type of quote.<br>
+            - Strings can be combined together.<br>
+            - Strings cannot be added to numbers, however they can be multiplied by numbers.
+          </div>
+        </div>
+        <div class="Concept">
+          <div class="Topic">
+            Indexing Strings
+          </div>
+          <div class="item">
+            - Each character of a string is assigned a value starting with 0 for the first character of a string and going up sequencially from there.<br>
+            - The character, in a certain position of a string, can be evaluated by the expression: &ltstring&gt[&ltexpression&gt], where the expression in the brackets evaluates to a number.<br>
+            - I.e. 'udacity'[0]='u' or 'udacity'[1+1]='a'<br>
+            - A negative number inside the brackets evaluates the from the end, i.e. 'udacity'[-1]='y' or 'udacity'[-3]='i'.
+          </div>
+        </div>
+        <div class="Concept">
+          <div class="Topic">
+            Selecting Subsequences
+          </div>
+          <div class="item">
+            - A subsequence of a string can be found by the expression: &ltstring&gt[&ltexpression&gt:&ltexpression&gt], where both expressions inside the brackets evaluate to numbers.<br>
+            - The subquence string starts at the position of the first expression in the bracket and ends at the second expression in the bracket minus one.<br>
+            - I.e. 'udacity'[1:4]='dac' or 'udacity'[2:-2]='aci'<br>
+            - Leaving the right side open will return a subsequence from the first number to the end of the string, i.e. 'udacity'[3:]='city'.<br>
+            - Leaving the left side open with return a subsequence from the beginning of the string til the number on the left minus 1, i.e. 'udacity'[:4]='udac'.<br>
+            - Leaving both sides open will return the entire string.
+          </div>
+        </div>
+        <div class="Concept">
+          <div class="Topic">
+            Finding Strings in Strings
+          </div>
+          <div class="item">
+            - &ltstring&gt.find(&ltstring&gt) will return the position of the first occurence of the substring in the string.<br>
+            - I.e. 'I am happy.'.find('happy')=5.<br>
+            - Another parameter can be added to the find procedure to see where the substring occurs after a given position.<br>
+            - I.e. 'Happy happy happy'.find('hap', 7)=12
+          </div>
+        </div>
+      </div>
+      <div class="Lesson">
+        <div class="LessonName">
+          <h2></h2>
+        </div>
+        <div class="Concept">
+          <div class="Topic">
+            
+          </div>
+          <div class="item">
+            
+          </div>
+            
+    </div>
+  </body>
+</html>

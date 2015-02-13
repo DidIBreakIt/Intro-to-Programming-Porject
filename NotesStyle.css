@@ -1,0 +1,8 @@
+*{-webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; box-sizing: border-box;}
+body{background-color:black;}
+h1{font-weight:bold; color:green; text-align:center;}
+.Topic{font-size: 30px; margin: 8px; text-align: center; color: #294861; background-color:white; border-radius: 20px;}
+.item{background-color: #708090; border-radius: 20px; font-size: 18px; color: white; padding: 10px; padding-left:50px;}
+.Lesson{border-radius:10px; background-color:#a9a9a9; padding:10px; border:3px solid black}
+.Concept{padding:1px; background-color:#2f4f4f; border:2px solid black; border-radius:10px}
+.LessonName{text-align: center; color:#2f4f4f}
